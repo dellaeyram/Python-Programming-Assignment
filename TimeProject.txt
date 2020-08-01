@@ -29,19 +29,4 @@ def returnDateTime(startDateTime=str(datetime.now()), stopDateTime=str(datetime.
         stopDatetime.append(int(round(float(stop_datetime[i]))))
 
 
-    #creating a datetime variables and saving the start and stop date and time in them
-    startDateTime = datetime(year=startDatetime[0],
-                             month=startDatetime[1],
-                             day=startDatetime[2],
-                             hour=startDatetime[3],
-                             minute=startDatetime[4],
-                             second=startDatetime[5])
-
-    stopDateTime = datetime(year=stopDatetime[0],
-                             month=stopDatetime[1],
-                             day=stopDatetime[2],
-                             hour=stopDatetime[3],
-                             minute=stopDatetime[4],
-                             second=stopDatetime[5])
-
     
